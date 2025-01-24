@@ -36,7 +36,7 @@ export default function Navigation() {
       isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
     }`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <Link to="/" className="font-serif text-xl tracking-tight">YOUR NAME</Link>
+        <Link to="/" className="font-serif text-xl tracking-tight">Théo Lefeuvre</Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">

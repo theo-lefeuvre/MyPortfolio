@@ -4,41 +4,41 @@ import { Calendar, Users, GraduationCap, School, Briefcase, Target, Award, Arrow
 
 const classes = [
   {
-    title: "Advanced Quantum dddd",
-    level: "Master's Degree",
-    institution: "University of Science",
-    year: "2024",
+    title: "Java",
+    level: "Bachelor's Degree",
+    institution: "INSA",
+    year: "2025",
     semester: "Spring",
-    description: "Advanced course covering quantum algorithms, error correction, and quantum machine learning. Includes hands-on programming with Qiskit and practical implementations.",
-    students: "25 Master's students",
-    hours: "48 hours",
-    topics: ["Quantum Algorithms", "Error Correction", "Quantum ML", "Qiskit Programming"],
-    achievements: "Developed new practical exercises that were adopted by other universities"
+    description: "Intensive workshop focusing on practical quantum programming skills and real-world applications.",
+    students: "25 participants",
+    hours: "18 hours",
+    topics: ["Java", "Programming"],
+    achievements: ""
   },
   {
-    title: "Introduction to Quantum Information",
+    title: "Unity3D",
+    level: "Master's Degree",
+    institution: "Renne University",
+    year: "2024",
+    semester: "Fall",
+    description: "Td,TP, exam, notation",
+    students: "25 Master's students",
+    hours: "18 hours",
+    topics: ["Unity3D"],
+    achievements: ""
+  },
+  {
+    title: "Database & SQL",
     level: "Bachelor's Degree",
-    institution: "Technical Institute",
-    year: "2023",
+    institution: "INSA",
+    year: "2024",
     semester: "Fall",
     description: "Foundational course introducing quantum mechanics principles for computing, basic quantum circuits, and quantum information theory.",
-    students: "40 undergraduate students",
-    hours: "36 hours",
-    topics: ["Quantum Mechanics", "Quantum Circuits", "Information Theory"],
-    achievements: "95% student satisfaction rate"
+    students: "14 undergraduate students",
+    hours: "26 hours",
+    topics: ["Database", "SQL"],
+    achievements: ""
   },
-  {
-    title: "Quantum Programming Workshop",
-    level: "Professional Training",
-    institution: "Summer School of Physics",
-    year: "2023",
-    semester: "Summer",
-    description: "Intensive workshop focusing on practical quantum programming skills and real-world applications.",
-    students: "30 participants",
-    hours: "24 hours",
-    topics: ["Quantum Programming", "Circuit Design", "Applications"],
-    achievements: "Workshop materials published as open educational resources"
-  }
 ];
 
 const projects = [

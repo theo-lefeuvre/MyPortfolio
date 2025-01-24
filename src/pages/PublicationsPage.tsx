@@ -4,7 +4,7 @@ import { ExternalLink, Calendar, MapPin, Award, BookOpen, Users, Radio } from 'l
 
 const publications = {
   journals: [
-    {
+    /*{
       title: "Scalable Quantum Computing: A Machine Learning Approach",
       authors: ["Co-author Four", "Co-author Five", "<strong>Your Name</strong>"],
       journal: "Physical Review X Quantum",
@@ -30,10 +30,10 @@ const publications = {
       doi: "10.1038/s41534-022-00001-1",
       impact: "50+ Citations in First Year",
       tags: ["Quantum Computing", "Circuit Optimization", "Theory"]
-    }
+    }*/
   ],
   international: [
-    {
+    /*{
       title: "Hybrid Quantum-Classical Algorithms for Large-Scale Optimization",
       authors: ["<strong>Your Name</strong>", "Co-author Eight"],
       conference: "International Symposium on Quantum Technology",
@@ -71,23 +71,21 @@ const publications = {
       link: "javascript:void(0)",
       presentation: "Oral",
       tags: ["Error Correction", "Deep Learning", "Quantum Computing"]
-    }
+    }*/
   ],
   national: [
     {
-      title: "Quantum Software Development: Best Practices and Tools",
-      authors: ["Co-author Eleven", "<strong>Your Name</strong>"],
-      conference: "National Software Engineering for Quantum Computing",
-      location: "Toulouse, France",
+      title: "Toward Understanding the Impact of a Biomimetic Virtual Hand on Behavior and Embodiment in Virtual Reality",
+      authors: ["Lefrou Titouan", "<strong>Lefeuvre Théo</strong>, Dufresne Florian, Dubosc Charlotte, Christmann Olivier, Gorisse Geoffrey"],
+      conference: "JFXR-2024",
+      location: "Paris, France",
       year: "2024",
-      month: "February",
-      proceedings: "NSEQC 2024",
-      pages: "89-96",
-      link: "javascript:void(0)",
-      presentation: "Tutorial",
-      tags: ["Software Engineering", "Development Tools", "Best Practices"]
+      month: "November ",
+      link: "https://www.researchgate.net/publication/386211905_Toward_Understanding_the_Impact_of_a_Biomimetic_Virtual_Hand_on_Behavior_and_Embodiment_in_Virtual_Reality",
+      presentation: "Poster",
+      tags: ["Embodiment ", "Virtual Reality"]
     },
-    {
+    /*{
       title: "Quantum Algorithm Implementation on NISQ Devices",
       authors: ["<strong>Your Name</strong>", "Co-author Ten"],
       conference: "French Quantum Computing Conference",
@@ -112,10 +110,14 @@ const publications = {
       link: "javascript:void(0)",
       presentation: "Workshop",
       tags: ["Education", "Quantum Computing", "Pedagogy"]
-    }
+    }*/
   ]
 };
+/* 
+              <span>View in Proceedings ({data.proceedings}, pp. {data.pages})</span>
 
+
+*/
 type PublicationType = 'journals' | 'international' | 'national';
 
 export default function PublicationsPage() {
@@ -235,7 +237,7 @@ export default function PublicationsPage() {
               className="flex items-center gap-2 text-[#2A2522] hover:text-[#C17F59]"
             >
               <ExternalLink size={20} />
-              <span>View in Proceedings ({data.proceedings}, pp. {data.pages})</span>
+              <span>View of the submission</span>
             </a>
           </div>
         </div>

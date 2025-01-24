@@ -4,14 +4,13 @@ import { GraduationCap, Award, Heart } from 'lucide-react';
 const skills = {
   Technical: ["Python", "PyTorch", "SQL", "Data Analysis","Unity3D","Unreal Engine"],
   Research: ["Statistical Analysis", "Machine Learning", "Scientific Writing"],
-  Languages: ["French (Native)", "English (Fluent)", "German (Basic)"],
+  Languages: ["French (Native)", "English (Fluent)", "Jpanese (N4)"],
   Soft: ["Project Management","Public Speaking", "Problem Solving"]
 };
 
 const achievements = [
-  "Best Paper Award at International Conference on ML 2023",
-  "Research Grant Recipient 2022",
-  "Department Excellence Award 2021"
+  "Selected for Laval Virtual student competition 2024",
+  "Selected for Laval Virtual student competition 2020"
 ];
 
 export default function About() {

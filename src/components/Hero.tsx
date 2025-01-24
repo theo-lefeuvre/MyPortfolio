@@ -78,9 +78,9 @@ export default function Hero() {
       {/* Right Column */}
       <div className="flex flex-col items-center text-center">
         <Asterisk className="w-8 h-8 mb-4 animate-spin-slow" />
-        <h2 className="text-2xl font-serif mb-4">Researcher & Scholar</h2>
+        <h2 className="text-2xl font-serif mb-4">PhD Student</h2>
         <p className="text-lg max-w-xs">
-          I am a PhD student focused BCI, 
+          I am a PhD student focused in BCI, 
           creating innovative research that bridges the gap between 
           [Your Research Areas].
         </p>
