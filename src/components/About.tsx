@@ -2,7 +2,7 @@ import React from 'react';
 import { GraduationCap, Award, Heart } from 'lucide-react';
 
 const skills = {
-  Technical: ["Python", "PyTorch", "SQL", "Data Analysis","Unity3D","Unreal Engine"],
+  Technical: ["Python", "PyTorch", "Data Analysis","Unity3D","Unreal Engine"],
   Research: ["Statistical Analysis", "Machine Learning", "Scientific Writing"],
   Languages: ["French (Native)", "English (Fluent)", "Jpanese (N4)"],
   Soft: ["Project Management","Public Speaking", "Problem Solving"]

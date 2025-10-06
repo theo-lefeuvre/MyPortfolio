@@ -4,36 +4,64 @@ import { Calendar, Users, GraduationCap, School, Briefcase, Target, Award, Arrow
 
 const classes = [
   {
-    title: "Java",
-    level: "Bachelor's Degree",
-    institution: "INSA",
-    year: "2025",
-    semester: "Spring",
-    description: "Intensive workshop focusing on practical quantum programming skills and real-world applications.",
-    students: "25 participants",
-    hours: "18 hours",
-    topics: ["Java", "Programming"],
-    achievements: ""
-  },
-  {
-    title: "Unity3D",
+    title: "Teaching Assistant – Unity3D",
     level: "Master's Degree",
-    institution: "Renne University",
-    year: "2024",
-    semester: "Fall",
-    description: "Td,TP, exam, notation",
-    students: "25 Master's students",
+    institution: "Rennes University, France",
+    year: "2025",
+    semester: "",
+  description: [
+      "Designed and conducted course and project sessions",
+      "Developed course materials",
+      "Created and graded exams"
+    ],    
+    students: "25 students",
     hours: "18 hours",
-    topics: ["Unity3D"],
+    topics: ["18 hours"],
     achievements: ""
   },
   {
-    title: "Database & SQL",
+    title: "Teaching Assistant - Java programming",
     level: "Bachelor's Degree",
-    institution: "INSA",
+    institution: "INSA Rennes, France",
+    year: "2025",
+    semester: "",
+    description: [
+      "Designed and conducted course and project sessions",
+      "Developed course materials",
+      "Created and graded exams"
+    ],
+    students: "25 students",
+    hours: "18 hours",
+    topics: ["18 hours"],
+    achievements: ""
+  },
+  {
+    title: "Teaching Assistant – Unity3D",
+    level: "Master's Degree",
+    institution: "Rennes University, France",
     year: "2024",
-    semester: "Fall",
-    description: "Foundational course introducing quantum mechanics principles for computing, basic quantum circuits, and quantum information theory.",
+    semester: "",
+  description: [
+      "Designed and conducted course and project sessions",
+      "Developed course materials",
+      "Created and graded exams"
+    ],    
+    students: "25 students",
+    hours: "18 hours",
+    topics: ["18 hours"],
+    achievements: ""
+  },
+  {
+    title: "Teaching Assistant - Database & SQL",
+    level: "Bachelor's Degree",
+    institution: "INSA Rennes, France",
+    year: "2024",
+    semester: "",
+    description: [
+      "Designed and conducted course and project sessions",
+      "Developed course materials",
+      "Created and graded exams"
+    ],    
     students: "14 undergraduate students",
     hours: "26 hours",
     topics: ["Database", "SQL"],
@@ -134,8 +162,12 @@ export default function ActivitiesPage() {
                   </span>
                 </div>
 
-                <p className="text-gray-800 mb-6">{course.description}</p>
-                
+                <ul className="text-gray-800 mb-6 list-disc list-inside pl-6">
+                  {course.description.map((line, i) => (
+                    <li key={i}>{line}</li>
+                  ))}
+                </ul>       
+
                 <div className="flex flex-wrap gap-2 mb-6">
                   {course.topics.map((topic, topicIndex) => (
                     <span key={topicIndex} className="px-3 py-1 bg-[#FDF8F5] text-sm rounded-full">
