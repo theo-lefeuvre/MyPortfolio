@@ -261,7 +261,7 @@ export default function ActivitiesPage() {
             ACTIVITIES
           </h1>
           <p className="text-xl md:text-2xl text-[#2A2522] max-w-2xl">
-            Teaching experience and project management in quantum computing education.
+            Teaching experience
           </p>
         </header>
 

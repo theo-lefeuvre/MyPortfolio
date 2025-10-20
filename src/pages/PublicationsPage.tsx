@@ -73,7 +73,45 @@ const publications = {
       tags: ["Error Correction", "Deep Learning", "Quantum Computing"]
     }*/
   ],
-  national: [
+  conferences: [
+   
+    {
+      title: "Toward EEG discrimination of fingers movements during motor imagery vs passive movement",
+      authors: ["<strong>Lefeuvre Théo</strong>, Kyungho Won, Monica Malvezzi, Mihai Dragusanu, Claudio Pacchierotti, Anatole Lécuyer, Marc Macé, Léa Pillette"],
+      conference: "11th International BCI Meeting 2025",
+      location: "Banff, Canada",
+      year: "2025",
+      month: "June ",
+      link: "https://doi.org/10.3217/978-3-99161-050-2",
+      presentation: "Poster",
+      tags: ["Motor imagery ", "Passive movement", "Finger imagery"]
+    },
+  {
+      title: "Impact of Neurofeedback Training on Thermal Sensory Imagery and Perception",
+      authors: ["<strong>Lefeuvre Théo</strong>, Emille Savalle, Anatole Lécuyer, Marc Macé, Léa Pillette"],
+      conference: "CORTICO Scientific Days – 7th Edition",
+      location: "Lyon, France",
+      year: "2025",
+      month: "May ",
+      link: "",
+      presentation: "Poster",
+      tags: ["Sensory imagery", "Neurofeedback"]
+    },
+
+
+
+      {
+      title: "Toward EEG discrimination of fingers movements during motor imagery vs passive movement",
+      authors: ["<strong>Lefeuvre Théo</strong>, Kyungho Won, Monica Malvezzi, Mihai Dragusanu, Claudio Pacchierotti, Anatole Lécuyer, Marc Macé, Léa Pillette"],
+      conference: "Laval Virtual Doctoral Consortium",
+      location: "Laval, France",
+      year: "2025",
+      month: "April ",
+      link: "https://doi.org/10.20870/IJVR.2025.1.1.9362",
+      presentation: "Poster",
+      tags: ["Motor imagery ", "Passive movement", "Finger imagery"]
+    },
+    
     {
       title: "Toward Understanding the Impact of a Biomimetic Virtual Hand on Behavior and Embodiment in Virtual Reality",
       authors: ["Lefrou Titouan", "<strong>Lefeuvre Théo</strong>, Dufresne Florian, Dubosc Charlotte, Christmann Olivier, Gorisse Geoffrey"],
@@ -111,6 +149,19 @@ const publications = {
       presentation: "Workshop",
       tags: ["Education", "Quantum Computing", "Pedagogy"]
     }*/
+  ],
+  talks: [
+  {
+      title: "COLIBRI Focus Workshop",
+      authors: ["<strong>Lefeuvre Théo</strong>"],
+      conference: "COLIBRI Focus Workshop",
+      location: "Graz, Austria",
+      year: "2025",
+      month: "June ",
+      link: "",
+      presentation: "Talks",
+      tags: ["Sensory imagery", "Neurofeedback"]
+    },
   ]
 };
 /* 
@@ -118,7 +169,7 @@ const publications = {
 
 
 */
-type PublicationType = 'journals' | 'international' | 'national';
+type PublicationType = 'journals' | 'conferences' | 'talks';
 
 export default function PublicationsPage() {
   const [activeTab, setActiveTab] = useState<PublicationType>('journals');
@@ -266,14 +317,14 @@ export default function PublicationsPage() {
             icon={BookOpen}
           />
           <TabButton 
-            type="international" 
-            label="International Conferences" 
+            type="conferences" 
+            label="Conferences" 
             icon={Users}
           />
           <TabButton 
-            type="national" 
-            label="National Conferences" 
-            icon={Radio}
+            type="talks" 
+            label="Talks and workshops" 
+            icon={Users}
           />
         </div>
 
@@ -290,3 +341,12 @@ export default function PublicationsPage() {
     </div>
   );
 }
+
+/*
+ <TabButton 
+            type="national" 
+            label="National Conferences" 
+            icon={Radio}
+          />
+
+*/

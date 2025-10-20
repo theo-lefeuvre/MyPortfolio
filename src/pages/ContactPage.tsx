@@ -13,7 +13,7 @@ export default function ContactPage() {
             CONTACT
           </h1>
           <p className="text-xl md:text-2xl text-[#2A2522] max-w-2xl">
-            Get in touch for collaborations, inquiries, or academic discussions.
+            Get in touch for collaborations
           </p>
         </header>
 

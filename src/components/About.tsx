@@ -19,17 +19,14 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-serif mb-8">About Me</h2>
         
-        <div className="prose prose-lg mb-12">
-          <p>
-            As a PhD candidate in [Your Field] at [Your University], I'm passionate about pushing the boundaries of knowledge in [specific research area]. My research focuses on developing innovative solutions that bridge the gap between theoretical frameworks and practical applications.
-          </p>
-          <p>
-            With a background in both [Field 1] and [Field 2], I bring a unique interdisciplinary perspective to my research. I'm particularly interested in [specific research interest] and its potential applications in [industry/field].
-          </p>
-          <p>
-            When I'm not in the lab or writing papers, you can find me [personal interest 1] or exploring [personal interest 2]. I believe these diverse interests enhance my creative problem-solving abilities and bring fresh perspectives to my research.
-          </p>
-        </div>
+        <div className="w-full mb-12 text-justify leading-relaxed text-lg">
+      <p className="mb-4">
+        I am a PhD student in computer science and neuroscience at INRIA Rennes, Seamless team, under the supervision of Léa Pillette, Marc Macé, and Anatole Lécuyer.
+      </p>
+      <p>
+        My research focuses on studying the influence of sensory abilities on neurofeedback learning using brain-computer interfaces and the impact these interfaces have on these same abilities. My work also focuses on developing new innovative haptic feedback to support neurofeedback learning combining haptics and virtual reality.
+      </p>
+    </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {Object.entries(skills).map(([category, skillList]) => (

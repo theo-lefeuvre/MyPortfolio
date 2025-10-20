@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 import { Calendar, GraduationCap, Award, MapPin, BookOpen, Star } from 'lucide-react';
 
 const degrees = [
-  {
+  /*{
     title: "PhD in Quantum Computing",
     institution: "University of Science",
     location: "Paris, France",
@@ -21,40 +21,41 @@ const degrees = [
       "Research Methodology"
     ],
     advisor: "Prof. Marie Curie"
-  },
+  },*/
   {
-    title: "Master's in Computer Science",
-    institution: "Technical University",
-    location: "Lyon, France",
-    period: "2019 - 2021",
-    description: "Specialized in quantum computing and artificial intelligence. Graduated with highest honors. Master's thesis focused on quantum machine learning algorithms.",
-    achievements: [],
+    title: "Master's degree in virtual reality research",
+    institution: "ENSAM – École nationale supérieure d'Arts et Métiers",
+    location: "Laval, France",
+    period: "2023 - 2024",
+    description: "Virtual reality and interactive technologies research",
+    achievements: [
+      "Publication of a scientific article",
+      "Participated in the Laval Virtual international exhibition",
+    ],
     skills: [
-      "Quantum Computing",
-      "Artificial Intelligence",
-      "Algorithm Design",
-      "Scientific Computing"
+      "Research skills",
+     "Computer science",
+      "Virtual reality",
     ],
     advisor: "Prof. Alan Turing"
   },
   {
-    title: "Bachelor's in Physics",
-    institution: "Science Academy",
-    location: "Toulouse, France",
-    period: "2016 - 2019",
-    description: "Foundation in theoretical physics with focus on quantum mechanics and computational physics. Minor in computer science.",
+    title: "Master's Engineering degree",
+    institution: "ESIEA – Engineering School",
+    location: "Laval, France",
+    period: "2018 - 2023",
+    description: "Specialization in Virtual Reality and Immersive Systems",
     achievements: [
-      "Dean's List all semesters",
-      "Undergraduate Research Award",
-      "Physics Department Scholarship"
+      "Congratulations from the jury for the first four years",
+      "Participated in the Laval Virtual international exhibition",
     ],
     skills: [
-      "Quantum Mechanics",
-      "Computational Physics",
+      "Computer science",
+      "Virtual reality",
       "Programming",
       "Mathematics"
     ],
-    advisor: "Prof. Richard Feynman"
+    advisor: ""
   }
 ];
 
@@ -69,7 +70,7 @@ export default function FormationPage() {
             FORMATION
           </h1>
           <p className="text-xl md:text-2xl text-[#2A2522] max-w-2xl">
-            Academic journey and educational background in quantum computing and physics.
+            Academic journey and educational background
           </p>
         </header>
 
